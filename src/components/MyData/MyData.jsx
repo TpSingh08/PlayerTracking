@@ -46,7 +46,8 @@ export const MyData = () => {
         </div>
         <div className="text-wrapper-9">Height:</div>
         <div className="overlap-6">
-          <div className="text-wrapper-10">Save</div>
+          <div className="text-wrapper-10">
+            <button className="text-wrapper-38">Save</button></div>
         </div>
         <div className="text-wrapper-11">Edit</div>
         <img className="img" alt="Line" src="/img/line-1.svg" />

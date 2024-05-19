@@ -153,7 +153,18 @@ transform: scale(1.1);
   position: relative;
   width: 1515px;
 }
-
+.text-wrapper-38 {
+  color: #370e4a;
+  font-family: "Inter", Helvetica;
+  font-size: 40px;
+  font-weight: 500;
+  height: 22px;
+  letter-spacing: -0.41px;
+  line-height: 22px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
 .my-data .overlap {
   /* background-color: #370e4a; */
   border-radius: 15px;

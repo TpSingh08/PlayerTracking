@@ -16,7 +16,7 @@ export const SignUpPage = () => {
         </div>
         <div className="text-wrapper-37">Welcome!</div>
         <div className="overlap-group-4">
-          <Link to="/home-page">
+          <Link to="/my-data">
           <button className="text-wrapper-38">Sign Up</button></Link>
         </div>
         <div className="overlap-16">
