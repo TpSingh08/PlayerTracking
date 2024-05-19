@@ -15,22 +15,22 @@ export const SignUpPage = () => {
         </div>
         <div className="text-wrapper-37">Welcome!</div>
         <div className="overlap-group-4">
-          <div className="text-wrapper-38">Sign Up</div>
+          <button className="text-wrapper-38">Sign Up</button>
         </div>
         <div className="overlap-16">
-          <div className="text-wrapper-39">Enter your username</div>
+          <input className="input-field" placeholder="Enter your username" />
         </div>
         <div className="text-wrapper-40">Username</div>
         <div className="overlap-17">
-          <div className="text-wrapper-39">Enter your email</div>
+          <input className="input-field" placeholder="Enter your email" />
         </div>
         <div className="text-wrapper-41">Email Id</div>
         <div className="overlap-18">
-          <div className="text-wrapper-39">Enter your password</div>
+          <input type="password" className="input-field" placeholder="Enter your password" />
         </div>
         <div className="text-wrapper-42">Password</div>
         <div className="text-wrapper-43">or</div>
-        <div className="text-wrapper-44">Log in</div>
+        <button className="text-wrapper-44 login-button">Log in</button>
         <img className="line-6" alt="Line" src="/img/line-1-2.svg" />
         <img className="microsoftteams-image-5" alt="Microsoftteams image" src="/img/microsoftteams-image-4.png" />
       </div>

@@ -29,7 +29,7 @@ const router = createBrowserRouter([
     path: "/my-data",
     element: (
       <>
-              <Navbar />
+        <Navbar />
         <MyData />
       </>
     ),
@@ -38,7 +38,7 @@ const router = createBrowserRouter([
     path: "/sign-up-page",
     element: (
       <>
-              <Navbar />
+        <Navbar />
         <SignUpPage />
       </>
     ),

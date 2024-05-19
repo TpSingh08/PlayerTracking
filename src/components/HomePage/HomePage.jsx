@@ -22,16 +22,18 @@ const HomePage = () => {
           <span className="text-wrapper-19">Player </span>
           <span className="text-wrapper-20">TRACKING</span>
         </p>
-        <nav className="navbar">
+    <nav className="navbar">
       <div className="navbar-container">
-      <p className="player-TRACKING-2">
+        <p className="player-TRACKING-2">
           <span className="text-wrapper-19">Player </span>
           <span className="text-wrapper-20">TRACKING</span>
         </p>
         <div className="overlap-8">
         <Link to="/home-page" className="nav-link text-wrapper-24">Home</Link></div>
-        <div className="text-wrapper-22">Team Stats</div>
-        <div className="text-wrapper-23">Player Stats</div>
+        <Link to="" className="text-wrapper-22">Team Stats</Link>
+        {/* <div className="text-wrapper-22">Team Stats</div> */}
+        <Link to="" className="text-wrapper-23">Player Stats</Link>
+        {/* <div className="text-wrapper-23">Player Stats</div> */}
         <Link to="/my-data" className="nav-link text-wrapper-21">My Data</Link>
         <Link to="/sign-up-page" className="nav-link text-wrapper-25">Sign Up</Link>
       </div>

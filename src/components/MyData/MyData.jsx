@@ -16,26 +16,32 @@ export const MyData = () => {
         <img className="line" alt="Line" src="/img/line-4.svg" />
         <div className="div-wrapper">
           <div className="text-wrapper-3">Enter your name</div>
+          <input type="text" className="input-box" />
         </div>
         <div className="text-wrapper-4">Name:</div>
         <div className="overlap-2">
           <div className="text-wrapper-3">Enter your weight</div>
+          <input type="text" className="input-box" />
         </div>
         <div className="text-wrapper-5">Weight:</div>
         <div className="overlap-group-2">
           <div className="text-wrapper-3">Enter your sports</div>
+          <input type="text" className="input-box" />
         </div>
         <div className="text-wrapper-6">Sports:</div>
         <div className="overlap-3">
           <p className="text-wrapper-3">Enter your team (if any)</p>
+          <input type="text" className="input-box" />
         </div>
         <div className="text-wrapper-7">Team:</div>
         <div className="overlap-4">
           <div className="text-wrapper-3">Enter your age</div>
+          <input type="text" className="input-box" />
         </div>
         <div className="text-wrapper-8">Age:</div>
         <div className="overlap-5">
           <div className="text-wrapper-3">Enter your height</div>
+          <input type="text" className="input-box" />
         </div>
         <div className="text-wrapper-9">Height:</div>
         <div className="overlap-6">

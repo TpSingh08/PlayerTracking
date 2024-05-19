@@ -102,6 +102,12 @@
   position: absolute;
   top: 30px;
   white-space: nowrap;
+  transition: background-color 0.3s, border-radius 0.3s; /* Added transition */
+}
+
+.home-page .text-wrapper-21:hover {
+  background-color: #370e4a;
+  border-radius: 15px;
 }
 
 .home-page .text-wrapper-22 {
@@ -116,6 +122,12 @@
   position: absolute;
   top: 30px;
   white-space: nowrap;
+  transition: background-color 0.3s, border-radius 0.3s; /* Added transition */
+}
+
+.home-page .text-wrapper-22:hover {
+  background-color: #370e4a;
+  border-radius: 15px;
 }
 
 .home-page .text-wrapper-23 {
@@ -130,6 +142,12 @@
   position: absolute;
   top: 30px;
   white-space: nowrap;
+  transition: background-color 0.3s, border-radius 0.3s; /* Added transition */
+}
+
+.home-page .text-wrapper-23:hover {
+  background-color: #370e4a;
+  border-radius: 15px;
 }
 
 .home-page .overlap-8 {
@@ -153,15 +171,14 @@
   position: absolute;
   top: 10px;
   white-space: nowrap;
+  transition: background-color 0.3s, border-radius 0.3s; /* Added transition */
 }
-.text-wrapper-24 {
-  /* Other styles */
-  transition: background-color 0.3s ease, border-radius 0.3s ease;
-}
-.text-wrapper-24 :hover{
+
+.home-page .text-wrapper-24:hover {
   background-color: #370e4a;
   border-radius: 15px;
 }
+
 
 .home-page .text-wrapper-25 {
   color: #e97462;
@@ -175,6 +192,12 @@
   position: absolute;
   top: 30px;
   white-space: nowrap;
+  transition: background-color 0.3s, border-radius 0.3s; /* Added transition */
+}
+
+.home-page .text-wrapper-25:hover {
+  background-color: #370e4a;
+  border-radius: 15px;
 }
 
 .home-page .overlap-9 {
