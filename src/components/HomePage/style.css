@@ -102,11 +102,14 @@
   position: absolute;
   top: 30px;
   white-space: nowrap;
-  transition: background-color 0.3s, border-radius 0.3s; /* Added transition */
+  transition: background-color 0.3s ease, border-radius 0.3s ease, transform 0.3s ease;
+
+/* Added transition */
 }
 
 .home-page .text-wrapper-21:hover {
-  background-color: #370e4a;
+transform: scale(1.1);
+  
   border-radius: 15px;
 }
 
@@ -122,12 +125,17 @@
   position: absolute;
   top: 30px;
   white-space: nowrap;
-  transition: background-color 0.3s, border-radius 0.3s; /* Added transition */
+  
+transition: background-color 0.3s ease, border-radius 0.3s ease, transform 0.3s ease;
+
+  text-align: center;
+  /* Added transition */
 }
 
 .home-page .text-wrapper-22:hover {
-  background-color: #370e4a;
-  border-radius: 15px;
+ 
+  transform: scale(1.1);
+  border-radius: 10px;
 }
 
 .home-page .text-wrapper-23 {
@@ -142,11 +150,12 @@
   position: absolute;
   top: 30px;
   white-space: nowrap;
-  transition: background-color 0.3s, border-radius 0.3s; /* Added transition */
+  transition: background-color 0.3s ease, border-radius 0.3s ease, transform 0.3s ease; /* Added transition */
 }
 
 .home-page .text-wrapper-23:hover {
-  background-color: #370e4a;
+  transform: scale(1.1);
+
   border-radius: 15px;
 }
 
@@ -171,11 +180,11 @@
   position: absolute;
   top: 10px;
   white-space: nowrap;
-  transition: background-color 0.3s, border-radius 0.3s; /* Added transition */
+transition: background-color 0.3s ease, border-radius 0.3s ease, transform 0.3s ease; /* Added transition */
 }
 
 .home-page .text-wrapper-24:hover {
-  background-color: #370e4a;
+  transform: scale(1.1);
   border-radius: 15px;
 }
 
@@ -192,11 +201,11 @@
   position: absolute;
   top: 30px;
   white-space: nowrap;
-  transition: background-color 0.3s, border-radius 0.3s; /* Added transition */
+transition: background-color 0.3s ease, border-radius 0.3s ease, transform 0.3s ease;/* Added transition */
 }
 
 .home-page .text-wrapper-25:hover {
-  background-color: #370e4a;
+  transform: scale(1.1);
   border-radius: 15px;
 }
 

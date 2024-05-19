@@ -1,5 +1,6 @@
 import React from "react";
 import { Navbar } from "../Navbar";
+import { Link } from "react-router-dom";
 import "./style.css";
 
 export const SignUpPage = () => {
@@ -15,7 +16,8 @@ export const SignUpPage = () => {
         </div>
         <div className="text-wrapper-37">Welcome!</div>
         <div className="overlap-group-4">
-          <button className="text-wrapper-38">Sign Up</button>
+          <Link to="/home-page">
+          <button className="text-wrapper-38">Sign Up</button></Link>
         </div>
         <div className="overlap-16">
           <input className="input-field" placeholder="Enter your username" />
